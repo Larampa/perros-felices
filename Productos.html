@@ -5,90 +5,122 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
    <title>PERROS FELICES</title>
    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
 <body>
-   <div class="caja nav">
-      <ul>
-          <li class="caja nav__lista"> <a href="http:./../index.html"> Inicio </a></li>
+   <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
 
-          <li class="caja nav__lista"> <a href="./email.html">Login</a></li>
+         <a class="navbar-brand" href="#"><img src="./assest/Pet shop.jpg" alt="" width="100px"> Perros Felices</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+               <a class="nav-link active " aria-current="page" href="./index.html">Home</a>
+               <a class="nav-link" href="./contacto.html">Contacto</a>
+               <a class="nav-link" href="./Ubicacion.html">Ubicacion</a>
+               <a class="nav-link" href="./Productos.html">Productos</a>
+            </div>
+         </div>
+      </div>
+   </nav>
+   <br>
+   <br>
+   <br>
 
-          <li class="caja nav__lista"><a href="./Productos.html">Productos</a></li>
+   <h2 class="fs-4 text-center bg-light">Productos</h2>
 
-          <li class="caja nav__lista"><a href="./contacto.html">Contacto</a></li>
+   <br>
+   <br>
+   <br>
+   <center>
+   <section class="container row">
 
-          <li class="caja nav__lista"><a href="./nosotros.html">Nosotros</a></li>
-      </ul>
-  </div>
-
-  <div class="caja logo">
-   <h2 class="titulo">Perros felices</h2>
-   <img class="perro" src="./assest/foto teo.jpg" alt="" width="100" height="100">
-</div>
-
-   <h1>Productos</h1>
-
-   <form class="categoria">
-
-
-      <div class="categoria1">
-         <img class="image" src="./assest/images.jpg" alt="">
-         <h2>Snacks saludables</h2>
-         <select name="" id="">
-            <option></option>
-            <option>galletas de avena</option>
-            <option>galletas de pollo</option>
-            <option>galletas de pescado</option>
-         </select>
+      <div class="col-md-3">
+         <div class="card " style="width: auto;">
+            <img src="./assest/images.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <p class="card-text fs-4 text-center ">Snacks saludables</p>
+               <select name="" id="">
+                  <option></option>
+                  <option>galletas de avena</option>
+                  <option>galletas de pollo</option>
+                  <option>galletas de pescado</option>
+               </select>
+               <center><button>enviar</button></center>
+            </div>
+         </div>
       </div>
 
-         <div class="categoria2">
-            <img class="image" src="./assest/descarga.jpg" alt="">
-            <h2>Juguetes</h2>
-            <select name="" id="">
-               <option></option>
-               <option>huesitos</option>
-               <option>pelota</option>
-               <option>frisbee</option>
-
-            </select>
-         </div>
-
-            <div class="categoria3">
-               <img class="image" src="./assest/descarga (1).jpg" alt="">
-               <h2>Ropitas</h2>
+      <div class="col-md-3">
+         <div class="card" style="width: auto;">
+            <img src="./assest/descarga (1).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <p class="card-text fs-4 text-center ">Ropitas</p>
                <select name="" id="">
                   <option></option>
                   <option value="">buzo con capucha</option>
                   <option value="">buzo con cuello</option>
                   <option value="">campera frizada</option>
                </select>
-
+               <center><button>enviar</button></center>
             </div>
+         </div>
+      </div>
 
-               <div class="categoria4">
-                  <img class="image" src="./assest/higiene.jpg" alt="">
-                  <h2>Higiene</h2>
-                  <select name="" id="">
+      <div class="col-md-3">
+         <div class="card" style="width:;">
+            <img src="./assest/descarga.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <p class="card-text fs-4 text-center ">Juguetes</p>
+               <select name="" id="">
+                  <option></option>
+                  <option>huesitos</option>
+                  <option>pelota</option>
+                  <option>frisbee</option>
+               </select>
+               <center><button>enviar</button></center>
+            </div>
+         </div>
+      </div>
 
-                     <option></option>
-                     <option value="">Bolsitas plasticas</option>
-                     <option value="">cepillo</option>
-                     <option value="">guante saca pelo</option>
-                  </select>
-               </div>
 
+      <div class="col-md-3">
+         <div class="card" style="width: ;">
+            <img src="./assest/higiene.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <p class="card-text fs-4 text-center ">Higiene</p>
+               <select name="" id="">
+                  <option></option>
+                  <option value="">Bolsitas plasticas</option>
+                  <option value="">cepillo</option>
+                  <option value="">guante saca pelo</option>
+               </select>
+               <center><button>enviar</button></center>
+            </div>
+         </div>
+      </div>
+   </section>
 
-                  
+   <br>
+   <br>
+   <br>
 
-                  <button>enviar</button>
-
-
-   </form>
+   <div class="container-fluid bg-light tex-center p-3">
+      <div class="volver"><a href="./../index.html"> « Volver al <strong>Inicio</strong></a></div>
+      <br><br>
+      <p class="small">&copy; Todos los derechos reservardos :: S.A Perros Felices:: Buenos Aires, Argentina 2022</p>
+   </div>
+</center>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"></script>
 </body>
-<div class="volver"><a href="./../index.html"> « Volver al <strong>Inicio</strong></a></div>
 
 </html>
