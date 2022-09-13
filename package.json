@@ -1,0 +1,29 @@
+{
+  "name": "perros-felices--ramirez-carolina-2",
+  "version": "1.0.0",
+  "description": "Petshop",
+  "main": "index.html",
+  "scripts": {
+    "build-css":"node-sass --include-path scss styles/scss/styles-scss.scss styles/css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Larampa/perros-felices.git"
+  },
+  "keywords": [
+    "petshop",
+    "adopcion",
+    "perros"
+  ],
+  "author": "Carolina Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Larampa/perros-felices/issues"
+  },
+  "homepage": "https://github.com/Larampa/perros-felices#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.19"
+  }
+}

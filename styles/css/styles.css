@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(https://i.pinimg.com/564x/0a/2d/a7/0a2da791528d52fc652f167d2b665900.jpg); }
+
+.col-md-3:hover {
+  transform: all 1s;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  padding-bottom: 40px; }
+  .col-md-3:hover .fs-4 {
+    padding: 20px; }
+
+.nosotros {
+  margin-bottom: 70px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 50px;
+  text-align: center; }
